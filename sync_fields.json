@@ -1,0 +1,176 @@
+{
+	"title": "sdpfidsjifdsjkl",
+	"cards" : [
+		{
+			"card": {
+				"type" : "TOGGLE_HIDE_INPUT",
+				"params": [
+					{		  
+						"dispName":"Sync more fields from Chargebee to Pipedrive",
+						"req":"true",
+						"type":"TOGGLE",
+						"id":"toggle2"
+					},
+					{
+						"dispName":"Subscription fields",
+						"type":"MODELBOX_INPUT_FIELDS",
+						"id":"modelbox_check1",
+						"inputFields":[
+							{  
+								"type":"SEARCH_CHECK_BOX",
+								"id":"search",
+								"checkboxes":[
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox1",
+										"desc":"Checkbox label 1"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox2",
+										"desc":"Checkbox label 2"
+									}
+								]
+							}
+						]
+					},
+					{
+						"dispName":"Customer fields",
+						"type":"MODELBOX_INPUT_FIELDS",
+						"id":"modelbox_check2",
+						"inputFields":[
+							{  
+								"type":"SEARCH_CHECK_BOX",
+								"id":"search2",
+								"checkboxes":[
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox3",
+										"desc":"Checkbox label 1"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox4",
+										"desc":"Checkbox label 2"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox5",
+										"desc":"Checkbox label 3"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox6",
+										"desc":"Checkbox label 4"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox7",
+										"desc":"Checkbox label 5"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox8",
+										"desc":"Checkbox label 6"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox9",
+										"desc":"Checkbox label 7"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox10",
+										"desc":"Checkbox label 8"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox11",
+										"desc":"Checkbox label 9"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox12",
+										"desc":"Checkbox label 10"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox12",
+										"desc":"Checkbox label 11"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox14",
+										"desc":"Checkbox label 12"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox15",
+										"desc":"Checkbox label 13"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox16",
+										"desc":"Checkbox label 14"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox17",
+										"desc":"Checkbox label 15"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox18",
+										"desc":"Checkbox label 16"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox19",
+										"desc":"Checkbox label 17"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox20",
+										"desc":"Checkbox label 18"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox21",
+										"desc":"Checkbox label 19"
+									},
+									{  
+										"type":"CHECKBOX",
+										"id":"checkbox22",
+										"desc":"Checkbox label 20"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"id" : "check4"
+		}
+	],
+	"proceed":{
+		"id":"proceed",
+		"display" : "Proceed",
+		"icon" : "ARROW",
+		"buttonLook":"FILLED",
+		"type" : "DIRECT_LINK",
+		"request":{
+			"type":"ON_CLICK_SEND_INPUT",
+			"apiEndPoint":{
+				"apiUrl":"https://raw.githubusercontent.com/shamim-keyvalue/ipass_pipedrive/master/connect_resp.json",
+				"type":"GET",
+				"headers":{
+					"Authorization":"sfsfsdffadssd",
+					"Elements-Formula-Instance-Id":"sfsfsdafsd"
+				},
+				"input":{
+					"id":"chargebee"
+				}
+			}
+		}
+	}
+}

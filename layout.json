@@ -1,0 +1,152 @@
+{
+   "logo":"/third_party/cn-xero.png",
+   "integDispName":"Pipedrive",
+   "subStepList":[
+      {
+         "stepName":"Connect",
+         "stepId":"connect",
+         "apiEndPoint": {
+            "type": "GET",
+            "headers": {
+               "Elements-Formula-Instance-Id": "389614"
+            },
+            "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/connect",
+            "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "pipedrive",
+              "chargebeeElement": "14167",
+              "thirdPartyElement": "228",
+              "formula_SyncRulesContactsSetup": "26678",
+              "formula_SyncRulesContactsConfig": "26680",
+              "formula_SyncRulesDealsSetup": "26679",
+              "formula_SyncRulesDealsConfig": "26687",
+              "formula_SyncFieldsSetup": "26688",
+              "formula_SyncFieldsConfig": "26689",
+              "formula_ValidateSetup": "26739",
+              "formula_ValidateIgnore": "26818",
+              "formula_ValidateResult": "26736",
+              "formula_InitialSyncRun": "26851",
+              "formula_FullSyncRun": "27146",
+              "formula_FullSyncProcessCard": "27195",
+              "formula_SyncDispatcher": "26905",
+              "formula_SyncCustomers": "26907",
+              "formula_SyncSubscription": "26908",
+              "formula_SyncInvoice": "26909"
+            }
+         }
+      },
+      {
+         "stepName":"Sync Rules for Contacts",
+         "stepId":"step_1",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+                    "Elements-Formula-Instance-Id": "388728"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesContactsSetup",
+            "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "pipedrive"
+            }
+         }
+      },
+      {
+         "stepName":"Sync Rules for Deals",
+         "stepId":"step_2",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+                    "Elements-Formula-Instance-Id": "388733"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesDealsSetup"
+         }
+      },
+      {
+         "stepName":"Sync Fields",
+         "stepId":"step_3",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+                    "Elements-Formula-Instance-Id": "388894"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncFieldsSetup"
+         }
+      },
+      {
+         "stepName":"Data Validation",
+         "stepId":"step_4",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+               "Elements-Formula-Instance-Id": "389995"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/validateSetup",
+            "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "pipedrive",
+              "retry" : "false"
+            }
+         }
+      },
+      {
+         "stepName":"Run Initial Sync",
+         "stepId":"step_5",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+               "Elements-Formula-Instance-Id": "390239"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/initialSyncRun",
+            "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "pipedrive",
+              "action": "default",
+              "initialSync": "true"
+            }
+         }
+      },
+      {
+         "stepName":"Final step",
+         "stepId":"completed",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+               "Elements-Formula-Instance-Id": "392390"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncProcessingCard",
+            "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "pipedrive",
+              "initialSync": "false"
+            }
+         },
+         "fullSyncApiEndPoint": {
+             "type":"GET",
+             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/fullSyncRun",
+             "headers": {
+                 "Elements-Formula-Instance-Id": "392564"
+             },
+             "input": {
+                 "integrationName": "pipedrive",
+                 "siteDomain": "chargebee-labs.com"
+             }
+          },
+          "editConfig": {
+                "title": "Manage how Chargebee syncs data with Pipedrive",
+                "display": "Manage Sync Rules",
+                "apiEndPoint": {
+                    "type": "GET",
+                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/manageSyncRules",
+                    "headers": {
+                        "Elements-Formula-Instance-Id": "393177"
+                    },
+                    "input": {
+                        "integrationName": "pipedrive",
+                        "siteDomain": "chargebee-labs.com",
+                        "op": "edit"
+                    }
+                }
+            }
+      }
+   ]
+}

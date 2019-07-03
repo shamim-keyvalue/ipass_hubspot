@@ -1,0 +1,13 @@
+{
+   "cards":[
+      {
+         "id" : "check2",
+         "card": {
+            "type" : "ACTION",
+            "heading" : "You've ignored errors found during data validation.",
+            "icon" : "WARNING",
+         },
+         "isCardDone":"true"
+      }
+   ]
+}
