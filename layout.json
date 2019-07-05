@@ -1,6 +1,6 @@
 {
    "logo":"/third_party/cn-xero.png",
-   "integDispName":"Pipedrive",
+   "integDispName":"HubSpot",
    "subStepList":[
       {
          "stepName":"Connect",
@@ -8,30 +8,14 @@
          "apiEndPoint": {
             "type": "GET",
             "headers": {
-               "Elements-Formula-Instance-Id": "389614"
+               "Elements-Formula-Instance-Id": "393570"
             },
-            "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/connect",
+            "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/hubspot/connect",
             "input": {
               "siteDomain": "chargebee-labs.com",
-              "integrationName": "pipedrive",
+              "integrationName": "hubspot",
               "chargebeeElement": "14167",
-              "thirdPartyElement": "228",
-              "formula_SyncRulesContactsSetup": "26678",
-              "formula_SyncRulesContactsConfig": "26680",
-              "formula_SyncRulesDealsSetup": "26679",
-              "formula_SyncRulesDealsConfig": "26687",
-              "formula_SyncFieldsSetup": "26688",
-              "formula_SyncFieldsConfig": "26689",
-              "formula_ValidateSetup": "26739",
-              "formula_ValidateIgnore": "26818",
-              "formula_ValidateResult": "26736",
-              "formula_InitialSyncRun": "26851",
-              "formula_FullSyncRun": "27146",
-              "formula_FullSyncProcessCard": "27195",
-              "formula_SyncDispatcher": "26905",
-              "formula_SyncCustomers": "26907",
-              "formula_SyncSubscription": "26908",
-              "formula_SyncInvoice": "26909"
+              "thirdPartyElement": "229"
             }
          }
       },
