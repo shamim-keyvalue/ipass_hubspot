@@ -89,12 +89,12 @@
          "apiEndPoint": {
             "type":"GET",
             "headers": {
-               "Elements-Formula-Instance-Id": "390239"
+               "Elements-Formula-Instance-Id": "393818"
             },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/initialSyncRun",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/initialsync/setup",
             "input": {
               "siteDomain": "chargebee-labs.com",
-              "integrationName": "pipedrive",
+              "integrationName": "hubspot",
               "action": "default",
               "initialSync": "true"
             }
