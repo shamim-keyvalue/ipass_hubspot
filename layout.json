@@ -95,7 +95,7 @@
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/initialsync/setup",
             "input": {
               "siteDomain": "chargebee-labs.com",
-              "integrationName": "hubspot",
+              "type": "hubspot",
               "fromLayout": "fromLayout",
               "initialSync": "true"
             }
