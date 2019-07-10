@@ -96,7 +96,7 @@
             "input": {
               "siteDomain": "chargebee-labs.com",
               "integrationName": "hubspot",
-              "action": "default",
+              "fromLayout": "default",
               "initialSync": "true"
             }
          }
