@@ -10,7 +10,7 @@
             "headers": {
                "Elements-Formula-Instance-Id": "393570"
             },
-            "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/hubspot/connect",
+            "apiUrl": "https://raw.githubusercontent.com/shamim-keyvalue/ipass_hubspot/master/connect.json",
             "input": {
               "siteDomain": "chargebee-labs.com",
               "integrationName": "hubspot",
