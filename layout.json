@@ -44,7 +44,7 @@
                     "Elements-Formula-Instance-Id": "394654"
             },
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncRulesDealsSetup",
-            "input": {              "
+            "input": {
               "type": "hubspot"
               
             }
