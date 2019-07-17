@@ -13,7 +13,7 @@
             "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/hubspot/connect",
             "input": {
               "siteDomain": "chargebee-labs.com",
-              "integrationName": "hubspot",
+              "type": "hubspot",
               "chargebeeElement": "14167",
               "thirdPartyElement": "229",
               "formula_InitialSync": "27506",
