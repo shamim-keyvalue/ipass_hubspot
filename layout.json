@@ -43,7 +43,11 @@
             "headers": {
                     "Elements-Formula-Instance-Id": "394654"
             },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncRulesDealsSetup"
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncRulesDealsSetup",
+            "input": {              "
+              "type": "hubspot"
+              
+            }
          }
       },
       {
