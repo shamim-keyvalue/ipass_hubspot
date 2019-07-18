@@ -51,8 +51,38 @@
          }
       },
       {
-         "stepName":"Sync Rules for Fields",
+         "stepName":"Sync Rules for Deals",
          "stepId":"step_3",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+                    "Elements-Formula-Instance-Id": "394654"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncRulesDealsSetup",
+            "input": {
+              "type": "hubspot"
+              
+            }
+         }
+      },
+      {
+         "stepName":"Sync Rules for Deals",
+         "stepId":"step_4",
+         "apiEndPoint": {
+            "type":"GET",
+            "headers": {
+                    "Elements-Formula-Instance-Id": "394654"
+            },
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncRulesDealsSetup",
+            "input": {
+              "type": "hubspot"
+              
+            }
+         }
+      },
+      {
+         "stepName":"Sync Rules for Fields",
+         "stepId":"step_5",
          "apiEndPoint": {
             "type":"GET",
             "headers": {
@@ -63,7 +93,7 @@
       }, 
       {
          "stepName":"Sync Rules for Orders",
-         "stepId":"step_4",
+         "stepId":"step_6",
          "apiEndPoint": {
             "type":"GET",
             "headers": {
@@ -74,7 +104,7 @@
       },
       {
          "stepName":"Data Validation",
-         "stepId":"step_5",
+         "stepId":"step_7",
          "apiEndPoint": {
             "type":"GET",
             "headers": {
@@ -90,7 +120,7 @@
       },
       {
          "stepName":"Run Initial Sync",
-         "stepId":"step_6",
+         "stepId":"step_8",
          "apiEndPoint": {
             "type":"GET",
             "headers": {
