@@ -51,14 +51,14 @@
          }
       },
       {
-         "stepName":"Sync Rules for Deals",
+         "stepName":"Create A Deal",
          "stepId":"step_3",
          "apiEndPoint": {
             "type":"GET",
             "headers": {
-                    "Elements-Formula-Instance-Id": "394654"
+                    "Elements-Formula-Instance-Id": "394965"
             },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncRulesDealsSetup",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/createdeal",
             "input": {
               "type": "hubspot"
               
