@@ -66,14 +66,14 @@
          }
       },
       {
-         "stepName":"Sync Rules for Deals",
+         "stepName":"Update A Deal",
          "stepId":"step_4",
          "apiEndPoint": {
             "type":"GET",
             "headers": {
-                    "Elements-Formula-Instance-Id": "394654"
+                    "Elements-Formula-Instance-Id": "394967"
             },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncRulesDealsSetup",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/updatedeal",
             "input": {
               "type": "hubspot"
               
