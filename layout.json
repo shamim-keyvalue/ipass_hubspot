@@ -101,9 +101,9 @@
          "apiEndPoint": {
             "type":"GET",
             "headers": {
-                    "Elements-Formula-Instance-Id": "388894"
+                    "Elements-Formula-Instance-Id": "395209"
             },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncFieldsSetup"
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/orders"
          }
       },
       {
