@@ -116,7 +116,9 @@
                         },
              "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/validate",
             "input": {
-              "type": "hubspot"
+              "type": "hubspot",
+              "retry":"false"
+
             }                     
          }
       },
