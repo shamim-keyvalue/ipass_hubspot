@@ -112,10 +112,12 @@
          "apiEndPoint": {
             "type":"GET",
              "headers": {
-                                        "Elements-Formula-Instance-Id": "395214"
-                                    },
-                                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/validate"
-                                   
+                        "Elements-Formula-Instance-Id": "395214"
+                        },
+             "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/validate",
+            "input": {
+              "type": "hubspot"
+            }                     
          }
       },
       {
