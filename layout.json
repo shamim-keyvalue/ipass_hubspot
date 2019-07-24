@@ -51,36 +51,6 @@
          }
       },
       {
-         "stepName":"Create A Deal",
-         "stepId":"step_3",
-         "apiEndPoint": {
-            "type":"GET",
-            "headers": {
-                    "Elements-Formula-Instance-Id": "394965"
-            },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/createdeal",
-            "input": {
-              "type": "hubspot"
-              
-            }
-         }
-      },
-      {
-         "stepName":"Update A Deal",
-         "stepId":"step_4",
-         "apiEndPoint": {
-            "type":"GET",
-            "headers": {
-                    "Elements-Formula-Instance-Id": "394967"
-            },
-            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/updatedeal",
-            "input": {
-              "type": "hubspot"
-              
-            }
-         }
-      },
-      {
          "stepName":"Sync Rules for Fields",
          "stepId":"step_5",
          "apiEndPoint": {
