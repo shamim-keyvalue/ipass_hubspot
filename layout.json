@@ -120,7 +120,7 @@
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncProcessingCard",
             "input": {
               "siteDomain": "chargebee-labs.com",
-              "integrationName": "pipedrive",
+              "integrationName": "hubspot",
                "action": "default"
             }
          },
@@ -131,7 +131,7 @@
                  "Elements-Formula-Instance-Id": "392564"
              },
              "input": {
-                 "integrationName": "pipedrive",
+                 "integrationName": "hubspot",
                  "siteDomain": "chargebee-labs.com"
              }
           },
@@ -145,7 +145,7 @@
                         "Elements-Formula-Instance-Id": "393177"
                     },
                     "input": {
-                        "integrationName": "pipedrive",
+                        "integrationName": "hubspot",
                         "siteDomain": "chargebee-labs.com",
                         "op": "edit"
                     }
