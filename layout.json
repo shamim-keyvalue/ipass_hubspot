@@ -120,7 +120,7 @@
             "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncProcessingCard",
             "input": {
               "siteDomain": "chargebee-labs.com",
-              "type": "hubspot",
+              "type": "hubspot11",
                "action": "default"
             }
          },
