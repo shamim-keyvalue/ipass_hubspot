@@ -136,7 +136,7 @@
              }
           },
           "editConfig": {
-                "title": "Manage how Chargebee syncs data with Pipedrive",
+                "title": "Manage how Chargebee syncs data with Hubspot",
                 "display": "Manage Sync Rules",
                 "apiEndPoint": {
                     "type": "GET",
@@ -145,7 +145,7 @@
                         "Elements-Formula-Instance-Id": "395803"
                     },
                     "input": {
-                        "integrationName": "hubspot",
+                        "type": "hubspot",
                         "siteDomain": "chargebee-labs.com",
                         "op": "edit"
                     }
