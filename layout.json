@@ -134,6 +134,17 @@
               "retry":"false"
 
             }                     
+         },
+           "backStepApiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncRulesContactsSetup",
+             "headers": {
+                    "Elements-Formula-Instance-Id": "393712"
+            },
+             "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "hubspot"
+            }
          }
       },
       {
@@ -150,6 +161,17 @@
               "type": "hubspot",
               "action": "default",
               "initialSync": "true"
+            }
+         },
+           "backStepApiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/hubspot/syncRulesContactsSetup",
+             "headers": {
+                    "Elements-Formula-Instance-Id": "393712"
+            },
+             "input": {
+              "siteDomain": "chargebee-labs.com",
+              "integrationName": "hubspot"
             }
          }
       },
